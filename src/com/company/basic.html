@@ -1,5 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script language="JavaScript">
+        <!--
+        function listTags()
+        {
+            var tag, tags;
+            // or you can use var allElem=document.all; and loop on it
+            tags = "The tags in the page are:"
+            for(i = 0; i < document.all.length; i++)
+            {
+                tag = document.all(i).tagName;
+                tags = tags + "<br/>" + tag;
+            }
+            document.write(tags);
+        }// -->
+    </script>
+    <button onclick="listTags()">List my Tags</button>
+</head>
 
 <div class="container" >
     <img src="https://images.squarespace-cdn.com/content/584842c829687fa061985d07/1481131493486-XM5WRO87A48ZGPYNR4FZ/Alternate-CrabCakeCafe-Logo.png?format=1500w&content-type=image%2Fpng"
